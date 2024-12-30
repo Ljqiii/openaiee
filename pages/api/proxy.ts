@@ -1,7 +1,8 @@
 import type { NextRequest } from 'next/server';
 
 export const config = {
-  runtime: 'edge'
+  runtime: 'edge',
+  regions: ['kix1', 'hnd1', 'sin1']
 };
 
 export default async function handler(req: NextRequest) {
